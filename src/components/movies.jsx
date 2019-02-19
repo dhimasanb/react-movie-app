@@ -6,7 +6,8 @@ import {getMovies} from "../services/fakeMovieService";
 class Movies extends Component {
     state = {
         movies: getMovies(),
-        pageSize: 10
+        currentPage: 1,
+        pageSize: 4
     };
 
     handleDelete = (movie) => {
@@ -23,11 +24,12 @@ class Movies extends Component {
     };
 
     handlePageChange = (page) => {
-        console.log(page)
+        this.setState({currentPage: page})
     };
 
     render() {
         const {length: count} = this.state.movies;
+        const {pageSize, currentPage} = this.state;
 
         if (count === 0)
             return <p>There are no movies in the database.</p>
@@ -69,7 +71,8 @@ class Movies extends Component {
                 </table>
                 <Pagination
                     itemsCount={count}
-                    pageSize={this.state.pageSize}
+                    pageSize={pageSize}
+                    currentPage={currentPage}
                     onPageChange={this.handlePageChange}
                 />
             </React.Fragment>
