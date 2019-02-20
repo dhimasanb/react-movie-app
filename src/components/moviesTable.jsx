@@ -1,5 +1,5 @@
 import React from "react";
-import Like from "./movies";
+import Like from "./common/like";
 
 const MoviesTable = (props) => {
     const {movies, onDelete, onLike, onSort} = props;
