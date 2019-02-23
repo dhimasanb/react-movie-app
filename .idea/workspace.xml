@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c317737-d6e4-4e22-8b10-23a0dd427d48" name="Default Changelist" comment="Extracting movies table">
-      <change beforePath="$PROJECT_DIR$/src/components/common/input.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/input.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/loginForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/loginForm.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/loginForm.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="28" column="43" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
+            <state relative-caret-position="355">
+              <caret line="38" column="34" lean-forward="true" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -155,7 +154,7 @@
       <workItem from="1550529272186" duration="17051000" />
       <workItem from="1550651315821" duration="2912000" />
       <workItem from="1550661644713" duration="151000" />
-      <workItem from="1550841453921" duration="4555000" />
+      <workItem from="1550841453921" duration="5146000" />
     </task>
     <task id="LOCAL-00001" summary="Create like component">
       <created>1550530327452</created>
@@ -238,7 +237,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36552000" />
+    <option name="totallyTimeSpent" value="37143000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="809" extended-state="0" />
@@ -489,8 +488,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/loginForm.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="28" column="43" selection-start-line="28" selection-start-column="43" selection-end-line="28" selection-end-column="43" />
+        <state relative-caret-position="355">
+          <caret line="38" column="34" lean-forward="true" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
