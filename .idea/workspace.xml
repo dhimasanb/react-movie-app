@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c317737-d6e4-4e22-8b10-23a0dd427d48" name="Default Changelist" comment="Extracting movies table">
-      <change beforePath="$PROJECT_DIR$/src/components/common/form.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/form.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/movieForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/movieForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/movies.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/movies.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/genreService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/genreService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/httpService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/httpService.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/movieService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/movieService.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,8 +48,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/movieForm.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="30" column="37" lean-forward="true" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
+            <state relative-caret-position="282">
+              <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -232,7 +227,7 @@
       <workItem from="1550529272186" duration="17051000" />
       <workItem from="1550651315821" duration="2912000" />
       <workItem from="1550661644713" duration="151000" />
-      <workItem from="1550841453921" duration="16518000" />
+      <workItem from="1550841453921" duration="16812000" />
     </task>
     <task id="LOCAL-00001" summary="Create like component">
       <created>1550530327452</created>
@@ -315,7 +310,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48515000" />
+    <option name="totallyTimeSpent" value="48809000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="23" width="1440" height="809" extended-state="0" />
@@ -650,8 +645,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/movieForm.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="30" column="37" lean-forward="true" selection-start-line="30" selection-start-column="37" selection-end-line="30" selection-end-column="37" />
+        <state relative-caret-position="282">
+          <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
