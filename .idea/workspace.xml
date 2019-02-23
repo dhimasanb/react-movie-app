@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c317737-d6e4-4e22-8b10-23a0dd427d48" name="Default Changelist" comment="Extracting movies table">
-      <change beforePath="$PROJECT_DIR$/src/components/movies.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/movies.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/genreService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/genreService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/movieService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/movieService.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,22 +13,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/services/movieService.js">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/config.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+            <state relative-caret-position="15">
+              <caret line="1" column="38" lean-forward="true" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/movies.jsx">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/services/genreService.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+            <state relative-caret-position="15">
+              <caret line="1" column="22" selection-start-line="1" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/services/movieService.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
               <folding>
-                <element signature="e#0#39#0" expanded="true" />
+                <element signature="e#0#33#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -73,9 +83,10 @@
         <option value="$PROJECT_DIR$/src/services/httpService.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/services/logService.js" />
+        <option value="$PROJECT_DIR$/src/components/movies.jsx" />
         <option value="$PROJECT_DIR$/src/services/genreService.js" />
         <option value="$PROJECT_DIR$/src/services/movieService.js" />
-        <option value="$PROJECT_DIR$/src/components/movies.jsx" />
+        <option value="$PROJECT_DIR$/src/config.json" />
       </list>
     </option>
   </component>
@@ -105,12 +116,6 @@
               <item name="react-vidly" type="b2602c69:ProjectViewProjectNode" />
               <item name="react-vidly" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-vidly" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-vidly" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="react-vidly" type="b2602c69:ProjectViewProjectNode" />
@@ -164,7 +169,7 @@
       <workItem from="1550529272186" duration="17051000" />
       <workItem from="1550651315821" duration="2912000" />
       <workItem from="1550661644713" duration="151000" />
-      <workItem from="1550841453921" duration="9587000" />
+      <workItem from="1550841453921" duration="9796000" />
     </task>
     <task id="LOCAL-00001" summary="Create like component">
       <created>1550530327452</created>
@@ -247,7 +252,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41584000" />
+    <option name="totallyTimeSpent" value="41793000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="23" width="1440" height="809" extended-state="0" />
@@ -520,20 +525,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/services/genreService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="53" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/services/movieService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/movies.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -541,6 +532,33 @@
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config,json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/genreService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="22" selection-start-line="1" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/movieService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="37" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="38" lean-forward="true" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
         </state>
       </provider>
     </entry>
