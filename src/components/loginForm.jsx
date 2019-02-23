@@ -14,13 +14,22 @@ class LoginForm extends Form {
     };
 
     schema = {
-      username: Joi.string().required().label("Username"),
-      password: Joi.string().required().label("Password"),
+        username: Joi.string().required().label("Username"),
+        password: Joi.string().required().label("Password"),
     };
 
     doSubmit = async () => {
-      const { data } = this.state;
-      await login(data.username, data.password);
+        try {
+            const {data} = this.state;
+            await login(data.username, data.password);
+        } catch (e) {
+            if (e.response && e.response.status === 400) {
+                // const errors = {...this.state.errors};
+                const errors = {};
+                errors.username = e.response.data;
+                this.setState({errors});
+            }
+        }
     };
 
     render() {
