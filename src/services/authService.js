@@ -27,9 +27,14 @@ export function getCurrentUser() {
     }
 }
 
+export function getJWT() {
+    return localStorage.getItem(tokenKey)
+}
+
 export default {
     login,
+    loginWithJWT,
     logout,
     getCurrentUser,
-    loginWithJWT
+    getJWT
 };

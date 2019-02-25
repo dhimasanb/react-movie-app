@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c317737-d6e4-4e22-8b10-23a0dd427d48" name="Default Changelist" comment="Extracting movies table">
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/loginForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/loginForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/logout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/logout.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/registerForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/registerForm.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/services/authService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/authService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/services/httpService.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/httpService.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/services/authService.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="570">
+              <caret line="38" column="10" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
               <folding>
                 <element signature="e#0#33#0" expanded="true" />
               </folding>
@@ -57,6 +54,18 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-113">
               <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/services/httpService.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -107,7 +116,6 @@
         <option value="$PROJECT_DIR$/src/components/movies.jsx" />
         <option value="$PROJECT_DIR$/src/components/movieForm.jsx" />
         <option value="$PROJECT_DIR$/src/services/userService.js" />
-        <option value="$PROJECT_DIR$/src/services/httpService.js" />
         <option value="$PROJECT_DIR$/src/components/common/form.jsx" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/components/navBar.jsx" />
@@ -117,6 +125,7 @@
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/components/registerForm.jsx" />
         <option value="$PROJECT_DIR$/src/services/authService.js" />
+        <option value="$PROJECT_DIR$/src/services/httpService.js" />
       </list>
     </option>
   </component>
@@ -227,7 +236,7 @@
       <workItem from="1550651315821" duration="2912000" />
       <workItem from="1550661644713" duration="151000" />
       <workItem from="1550841453921" duration="25586000" />
-      <workItem from="1551006714344" duration="2361000" />
+      <workItem from="1551006714344" duration="2692000" />
     </task>
     <task id="LOCAL-00001" summary="Create like component">
       <created>1550530327452</created>
@@ -310,7 +319,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59944000" />
+    <option name="totallyTimeSpent" value="60275000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="809" extended-state="0" />
@@ -640,16 +649,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/services/httpService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/logout.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -689,10 +688,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/services/authService.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="10" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/services/httpService.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
           <folding>
-            <element signature="e#0#33#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
