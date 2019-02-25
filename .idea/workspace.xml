@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1c317737-d6e4-4e22-8b10-23a0dd427d48" name="Default Changelist" comment="Extracting movies table">
-      <change beforePath="$PROJECT_DIR$/src/components/common/protectedRoute.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/common/protectedRoute.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/loginForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/loginForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/moviesTable.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/moviesTable.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,11 +12,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/loginForm.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="390">
               <caret line="27" column="63" selection-start-line="27" selection-start-column="63" selection-end-line="27" selection-end-column="63" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/movies.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-71">
+              <caret line="99" lean-forward="true" selection-start-line="99" selection-end-line="99" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/moviesTable.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -83,7 +103,6 @@
         <option value="$PROJECT_DIR$/src/components/rentals.jsx" />
         <option value="$PROJECT_DIR$/src/components/navbar.jsx" />
         <option value="$PROJECT_DIR$/src/index.css" />
-        <option value="$PROJECT_DIR$/src/components/moviesTable.jsx" />
         <option value="$PROJECT_DIR$/src/components/login.jsx" />
         <option value="$PROJECT_DIR$/src/components/common/input.jsx" />
         <option value="$PROJECT_DIR$/src/services/logService.js" />
@@ -106,6 +125,7 @@
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/components/common/protectedRoute.jsx" />
         <option value="$PROJECT_DIR$/src/components/loginForm.jsx" />
+        <option value="$PROJECT_DIR$/src/components/moviesTable.jsx" />
       </list>
     </option>
   </component>
@@ -223,7 +243,7 @@
       <workItem from="1550651315821" duration="2912000" />
       <workItem from="1550661644713" duration="151000" />
       <workItem from="1550841453921" duration="25586000" />
-      <workItem from="1551006714344" duration="5037000" />
+      <workItem from="1551006714344" duration="5355000" />
     </task>
     <task id="LOCAL-00001" summary="Create like component">
       <created>1550530327452</created>
@@ -306,7 +326,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62620000" />
+    <option name="totallyTimeSpent" value="62938000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="809" extended-state="0" />
@@ -492,16 +512,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/moviesTable.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/config,json" />
     <entry file="file://$PROJECT_DIR$/src/components/common/input.jsx">
       <provider selected="true" editor-type-id="text-editor">
@@ -666,13 +676,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/movies.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="99" lean-forward="true" selection-start-line="99" selection-end-line="99" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
@@ -697,6 +700,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="27" column="63" selection-start-line="27" selection-start-column="63" selection-end-line="27" selection-end-column="63" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/movies.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-71">
+          <caret line="99" lean-forward="true" selection-start-line="99" selection-end-line="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/moviesTable.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
